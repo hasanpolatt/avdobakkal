@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "Araba",
+        "price": 50000
+    },
+    {
+        "id": 1,
+        "name": "Çanta",
+        "price": 3000
+    },
+    {
+        "id": 3,
+        "name": "Su",
+        "price": 1
+    },
+    {
+        "id": 4,
+        "name": "Çikolata",
+        "price": 2
+    }
+]
