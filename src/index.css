@@ -1,3 +1,12 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style: 0;
+  border: 0;
+  outline: 0;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +19,223 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  background: linear-gradient(to bottom, rgb(28, 29, 80), rgb(50, 34, 105));
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+
+.headerMain {
+  position: sticky;
+  top: 0;
+  background: linear-gradient(to bottom, rgb(28, 29, 80), rgb(50, 34, 105));
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+
+.header span {
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.product {
+  padding: 15px;
+  background: #fff;
+  border: 1px solid #ddd;
+  width: 24%;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 0;
+  justify-content: space-between;
+}
+
+.product img {
+  width: 100%;
+}
+
+.product h6 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.product .price {
+  font-size: 20px;
+  color: #4441d6;
+}
+.product .actions {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.actions button {
+  height: 40px;
+  padding: 0 15px;
+  flex: 1;
+  cursor: pointer;
+}
+.actions button[disabled] {
+  opacity: .3;
+  cursor: not-allowed;
+}
+.actions .buy-button {
+  background: #8b1414;
+  font-size: 14px;
+  font-weight: 500;
+  color: #ddd;
+  border-radius: 0 4px 4px 0;
+}
+.actions .sell-button {
+  background: rgb(34, 35, 105);
+  font-size: 14px;
+  color: #ddd;
+  font-weight: 500;
+  border-radius: 4px 0 0 4px;
+}
+.actions .amount {
+  width: 50px;
+  text-align: center;
+  border: 1px solid #ddd;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  font-weight: bold;
+  color: #555;
+}
+
+.basket-container {
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+.basket-container h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.basket-container .total {
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: right;
+  color: #0ca10c;
+}
+
+.kacsana {
+  background: #e60039;
+  height: 40px;
+  padding: 0 20px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  color: #ddd;
+  text-align: right;
+}
+
+.basketItem {
+  padding-bottom: 10px;
+  font-size: 17px;
+}
+.basketItem span {
+  color: #999;
+}
+
+.resetButton {
+  background: #42b93e;
+  height: 40px;
+  padding: 0 20px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  color: #ddd;
+}
+
+
+.menu {
+  background: #bd3434;
+  height: 40px;
+  padding: 0 20px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  color: #ddd;
+}
+
+.about-modal {
+  max-width: 720px;
+  background: #fff;
+  box-shadow: 0 0 15px 0 rgba(#000, .1);
+  padding: 50px;
+  position: relative;
+
+  
+}
+
+.modal-close-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 40px;
+  height: 40px;
+  background: #ddd;
+  cursor: pointer;
+}
+
+.about-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(rgb(56, 8, 8));
+}
+
+.sure-button {
+  background: #bd3434;
+  height: 40px;
+  padding: 0 20px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  color: #ddd;
+}
+
+.avdo {
+  position: fixed;
+  left:0;
+}
+
+.avdo-right {
+  position: fixed;
+  right:0;
 }

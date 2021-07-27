@@ -1,22 +1,50 @@
 [
     {
         "id": 1,
-        "name": "Araba",
-        "price": 50000
+        "name": "Sakız",
+        "price": 0.5,
+        "image": "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/07120219/07120219-68be82.jpg"
     },
     {
-        "id": 1,
-        "name": "Çanta",
-        "price": 3000
+        "id": 2,
+        "name": "Frigola",
+        "price": 2,
+        "image": "https://www.cagri.com/Uploads/UrunResimleri/buyuk/algida-max-frigola-65-ml-dondurma-51-af9.jpg"
     },
     {
         "id": 3,
-        "name": "Su",
-        "price": 1
+        "name": "Fuse-Tea",
+        "price": 2.5,
+        "image": "https://www.livashop.com/Uploads/UrunResimleri/buyuk/fuse-tea-seftali-4e86.jpg"
     },
     {
         "id": 4,
-        "name": "Çikolata",
-        "price": 2
+        "name": "Magnum",
+        "price": 4,
+        "image": "https://reimg-carrefour.mncdn.com/mnresize/600/600/productimage/30096966/30096966_0_MC/8796979593266_1499978001316.jpg"
+    },
+    {
+        "id": 5,
+        "name": "ReyMysterio Maskesi",
+        "price": 5,
+        "image": "https://i.ibb.co/LSJyDnX/aa.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Efso Top",
+        "price": 10,
+        "image": "https://contents.mediadecathlon.com/p1799467/kc33635efb25d80242463fb386da22802/1799467_default.jpg?format=auto&quality=60&f=800x0"
+    },
+    {
+        "id": 7,
+        "name": "Davul",
+        "price": 10,
+        "image": "https://n11scdn.akamaized.net/a1/450/kitap-muzik-film-oyun/ahsap-oyuncaklar/oyuncak-davul-30-cm-askili-cocuk-davulu-tokmakli-comakli-muzik__0103614720330704.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Buzlaç (yeşil)",
+        "price": 2,
+        "image": "https://lh3.googleusercontent.com/proxy/MHhGINMIzRPM0toDL7wIhLu7Ykwd1cnlqQ0YxqjLWFkjUjtjXydAdcTGcwn6EpbY5d_XS2jE4Lwmeo0QzaFM_bIPcl0_-HkqO8DPg4UTdFEauPrqkm_xTPPCU_BRnGQ"
     }
 ]
